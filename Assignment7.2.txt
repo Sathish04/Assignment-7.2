@@ -1,0 +1,14 @@
+Session 7 – Basic Statistics
+Assignment – 2
+
+1.
+> freq = table(mtcars$gear)
+> barplot(freq, main = "Frequency by number of gears", xlab = "Number of Gears", ylab="Frequency")
+> 
+2.
+> plot(mtcars$gear , mtcars$mpg, xlab = 'Number of gears', ylab = 'mpg',  main = 'Number of gears Vs mpg')
+
+3.
+> d <- density(mtcars$mpg)
+> plot(d)
+> 
